@@ -19,10 +19,14 @@ export default {
       text: ''
     }
   },
-  created () {
-    this.getData()
+  mounted () {
+    console.log(JIM)
+    this.reg()
   },
   methods: {
+    reg () {
+
+    }
   }
 }
 </script>

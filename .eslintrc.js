@@ -5,7 +5,9 @@ module.exports = {
   },
   extends: ['plugin:vue/essential', '@vue/standard'],
   globals: {
-    R: true
+    R: true,
+    JIM: true,
+    md5: true
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
